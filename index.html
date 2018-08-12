@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Jquery Navigation Bar</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div id="navbar-id" class="navbar">
+			<ul class="navbar-items">
+				<li class="navbar-item">
+					<a href="#">Home</a>
+				</li>
+				<li class="navbar-item">
+					<a href="#">Link</a>
+				</li>
+				<li class="navbar-item">
+					<a id="dropdown-menu-id" href="#">Dropdown<i class="fas fa-caret-down"></i></a>
+					<div id="dropdown-id" class="dropdown-menu">
+				      <a class="dropdown-item text-style text-style-padding" href="#">Action</a>
+				      <a class="dropdown-item text-style text-style-padding" href="#">Another action</a>
+				      <a class="dropdown-item text-style text-style-padding" href="#">Something else here</a>
+				      <div class="dropdown-divider"></div>
+				      <hr>
+				      <a class="dropdown-item text-style text-style-padding" href="#">Separated link</a>
+    				</div>
+				</li>
+				<li class="navbar-item display-item-li">
+					<a href="#">Navbar</a>
+				</li>
+				<li class="navbar-item display-item-li">
+					<a href="collapse.html">Collapse</a>
+				</li>
+				<li class="navbar-item display-item-li">
+					<a href="modal.html">Modal</a>
+				</li>
+				<li class="navbar-item display-item">
+					<a id="navbar-item-row-id" href="#"><i class="fas fa-bars"></i></a>
+				</li>
+			</ul>
+			<div id="navbar-item-id" class="navbar-item-row">
+				<ul >	
+					<li>
+						<a class="text-style" href="#">Navbar</a>
+					</li>
+					<li>
+						<a class="text-style" href="collapse.html">collapse</a>
+					</li>
+					<li>
+						<a class="text-style" href="modal.html">Modal</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

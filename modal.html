@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Jquery Modal</title>
+	<link rel="stylesheet" type="text/css" href="modal.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="modal">
+			<div>
+				<a href="index.html"><i class="fas fa-long-arrow-alt-left"></i></a>
+			</div>
+
+			<button id="modal-button-id" type="button" name="close">Show Modal</button>
+
+			<div id="modal-items-id" class="modal-items">
+				<div class="header">
+					<span>Modal Component</span>
+					<i id="cross-btn" class="fas fa-times" style="display: flex;justify-content: flex-end;"></i>
+				</div>
+				<div class="content">
+					<input id="name" type="text" name="inptext" placeholder="Name">
+					<textarea id="message" rows="4" cols="50" placeholder="Message" style="margin-top: 3vh"></textarea>
+				</div>
+				<div class="footer display">
+					<button id="close" type="button" name="close">Close</button>
+					<button id="save" type="button" name="close" style="margin-left: 1vw">Save Changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="modal.js"></script>
+</body>
+</html>

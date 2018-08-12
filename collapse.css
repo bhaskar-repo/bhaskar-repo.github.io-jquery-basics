@@ -1,0 +1,26 @@
+:root {
+	font-size : 16px; 
+}
+
+ul {
+	list-style : none;
+}
+
+li {
+	padding : 5px; 
+}
+
+.heading-bg {
+	height : 10vh; 
+	background-color : rgba(0,0,0,0.03);
+	border-radius : 5px; 
+}
+
+.content {
+	border : 1px solid rgba(0,0,0,0.03);;
+}
+
+.collapse-items {
+	display : flex;
+	flex-direction : column; 
+}

@@ -1,0 +1,33 @@
+:root {
+	font-size : 16px;
+}
+
+.modal-items {
+	display : flex;
+	flex-direction : column;
+	width : 50vw;
+	border : 1px solid black; 
+	padding: 5vw;
+	border-radius : 5px; 
+	z-index : 1;  
+}
+
+.modal-items div {
+	margin-top : 5vh; 
+}
+
+.content {
+	display : flex;
+	flex-direction : column;  
+}
+
+.display {
+	display : flex;
+	flex-wrap: wrap;
+	flex-direction : row; 
+	justify-content : flex-end;
+}
+
+.input-style {
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
